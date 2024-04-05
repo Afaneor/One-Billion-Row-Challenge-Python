@@ -103,7 +103,7 @@ def build_test_data(weather_station_names, num_rows_to_create):
 
 
 def main():
-    num_rows_to_create = 10000000
+    num_rows_to_create = 1000000000
     weather_station_names = build_weather_station_name_list()
     logger.info(estimate_file_size(weather_station_names, num_rows_to_create))
     build_test_data(weather_station_names, num_rows_to_create)
