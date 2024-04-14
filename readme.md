@@ -43,7 +43,6 @@ python create_measures.py
 python main.py
 ```
 
-```python
 ## Требования
 
 1. Скрипт должен быть написан на Python 3.11
@@ -58,3 +57,19 @@ python main.py
 - 4 ядра
 - 16 Гб оперативной памяти
 - SSD диск
+
+## Результаты
+
+| Solution | Time in Seconds | Approach |
+| --- | --- | --- |
+| [https://github.com/mylittletraf/One-Billion-Row-Challenge-Python/blob/main/main.py](https://github.com/mylittletraf/One-Billion-Row-Challenge-Python/blob/main/main.py) | 614.7 | Чистый питон |
+| [https://github.com/gresaggr/One-Billion-Row-Challenge-Python/blob/main/main.py](https://github.com/gresaggr/One-Billion-Row-Challenge-Python/blob/main/main.py) | \- | Чистый питон |
+| [https://github.com/ash1k-dev/One-Billion-Row-Challenge-Python/blob/main/solution\_with\_duckdb.py](https://github.com/ash1k-dev/One-Billion-Row-Challenge-Python/blob/main/solution_with_duckdb.py) (duckdb) | 15 | duckdb |
+| [https://github.com/ash1k-dev/One-Billion-Row-Challenge-Python/blob/main/solution\_with\_duckdb.py](https://github.com/ash1k-dev/One-Billion-Row-Challenge-Python/blob/main/solution_with_duckdb.py) (dask) | 127 | dask |
+| dask\_solution.py | 109 | dask |
+| duck\_db\_solution.py | 31 | duck db |
+| map\_reduce\_solution.py | 1400\* | multiprocessing |
+| numba\_solution.py | 1945\* | numba |
+| pandas\_solution.py | 358 | pandas |
+| python\_solution.py | 631 | python |
+
