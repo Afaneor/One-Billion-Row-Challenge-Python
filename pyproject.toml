@@ -8,7 +8,7 @@ packages = [{include = "1br_challenge"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-tqdm = "^4.66.2"
+tqdm = "^4.66.3"
 pandas = "^2.2.2"
 duckdb = "^0.10.1"
 dask = {extras = ["dataframe"], version = "^2024.4.1"}
